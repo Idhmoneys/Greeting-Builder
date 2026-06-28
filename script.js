@@ -4,6 +4,7 @@ function formatName(firstName, lastName){
 }
 
 function getGreeting(timeOfDay){
+    if(timeOfDay === morning || timeOfDay === evening || timeOfDay === afternoon)
     return `Good ${timeOfDay}`;
 }
 
